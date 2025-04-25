@@ -5,3 +5,8 @@ body {
     background-size: 66px 116px;
     background-position: 0 0, 0 0, 33px 58px, 33px 58px, 0 0, 33px 58px;
 }
+
+.card img {
+    max-width: 100%;
+    min-height: 150%;
+}

@@ -1,5 +1,6 @@
-const btn = document.getElementById("btn-cargar");
-btn.addEventListener("click", mostrar);
-function mostrar() {
-    alert("Aqui irá lo cargado");
-}
+const imagenes = document.querySelectorAll('.parallax');
+new simpleParallax(imagenes, {
+    scale: 1.3, 
+    delay: 0.75,
+    transition: 'cubic-bezier(0,0,0,1)'
+});
